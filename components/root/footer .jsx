@@ -1,4 +1,4 @@
-import React from "react";
+"use client";
 import {
   Twitter,
   Facebook,
@@ -81,7 +81,7 @@ export default function Footer() {
 
           <div className="flex gap-4">
             <Link href="#" className="hover:text-white">Privacy Policy</Link>
-            <span>•</span>
+            <span>•</span>  
             <Link href="#" className="hover:text-white">Terms of Service</Link>
             <span>•</span>
             <Link href="#" className="hover:text-white">Cookies</Link>

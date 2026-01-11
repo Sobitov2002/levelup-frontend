@@ -4,11 +4,13 @@ import Link from "next/link";
 
 const navbar = () => {
   return (
-    <div className="container m-auto p-4">
-      <div className="grid grid-cols-2 items-center">
-        <Image src="/icon.png" alt="Icon" width={60} height={60} />
+    <div className="container m-auto p-4  ">
+     
+      <div className="h-[10vh] min-h-[60px] flex items-center fixed bg-white border-b border-[#e5e7eb] top-0 left-0 right-0 z-50">
+         <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center w-full">
+        <Image src="/icon.png" alt="Icon" width={40} height={40} />
         <div className=" bg-white ">
-          <div className="flex items-center text-xl  space-x-8 text-gray-600">
+          <div className="flex items-center text-[14px]  space-x-8 text-gray-600">
             <Link href="#" className="text-blue-600   font-samebold">
               Home
             </Link>
@@ -26,6 +28,7 @@ const navbar = () => {
             </button>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
