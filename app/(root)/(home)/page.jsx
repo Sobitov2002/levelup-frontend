@@ -15,7 +15,6 @@ const page = () => {
       <Navbar className="fixed" />
       <Banner/>
       <Footer/>
->>>>>>> c1251c1 (banner add)
     </div>
   );
 };
