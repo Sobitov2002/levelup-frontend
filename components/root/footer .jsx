@@ -16,7 +16,7 @@ export default function Footer() {
       <div className="container m-auto px-6 py-16 grid grid-cols-1 md:grid-cols-4 gap-12">
         <div>
           <div  />
-          <Image src="/icon.png" alt="Icon" width={60} height={60} className="mb-6 " />
+          <Image src="/x.png" alt="TemurX Logo" width={60} height={60} className="text-white" />
           <p className="text-sm leading-relaxed mb-6">
             Empowering creators to share their stories and connect
             with audiences worldwide. Join our growing community today.
