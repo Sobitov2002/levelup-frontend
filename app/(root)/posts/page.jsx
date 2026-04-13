@@ -1,11 +1,13 @@
-import React from "react";
+import React from 'react'
 import Banner from "./components/banner";
+
 const page = () => {
   return (
-    <div className="">
+    <div>
       <Banner/>
+      
     </div>
-  );
-};
+  )
+}
 
-export default page;
+export default page
